@@ -2,7 +2,7 @@ import requests
 import json
 
 def create_admin():
-    url = "http://localhost:5000/api/users/create-first-admin"
+    url = "http://localhost:5001/api/users/create-first-admin"
     
     headers = {
         "Content-Type": "application/json",

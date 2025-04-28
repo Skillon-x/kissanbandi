@@ -54,7 +54,7 @@ const CheckoutPage = () => {
       }
 
       if (!deliveryDetails) {
-        navigate('/signup');
+        navigate('/register');
         toast.error('Please add delivery details');
         return;
       }
